@@ -29,16 +29,15 @@ churn-prediction/
 ```
 
 ## Quick start
-1. Put `WA_Fn-UseC_-Telco-Customer-Churn.csv` in `data/`.
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-3. Train models:
+2. Train models:
 ```bash
 python src/train.py --data_path data/WA_Fn-UseC_-Telco-Customer-Churn.csv
 ```
-4. Evaluate:
+3. Evaluate:
 ```bash
 python src/evaluate.py --data_path data/WA_Fn-UseC_-Telco-Customer-Churn.csv
 ```
